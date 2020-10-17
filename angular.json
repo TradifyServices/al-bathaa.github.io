@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "al-bathaa"
+    }
+  },
+  "defaultProject": "al-bathaa",
+  "cli": {
+    "analytics": "71451d3b-a8a7-4aef-bea5-20267b5c1282"
+  }
 }
