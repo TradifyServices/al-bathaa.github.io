@@ -7,6 +7,7 @@ import { ClientComponent } from './client/client.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { SchoolTransportComponent } from './school-transport/school-transport.component';
 import { ServicesComponent } from './services/services.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path:'testimonials',component:TestimonialsComponent},
   { path:'blogs',component:BlogsComponent},
   { path:'contact',component:ContactComponent},
+  { path:'school_transport',component:SchoolTransportComponent},
 ];
 
 

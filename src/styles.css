@@ -17,7 +17,7 @@
 }
 
 .section-padding {
-    padding: 150px 100px 80px;
+    padding: 150px 0px 80px;
 }
 
 #page-title-area {
@@ -645,10 +645,6 @@ a.slicknav_btn {
 /*== Fun Fact Area CSS End ==*/
 
 /*== Choose Car Area CSS Start ==*/
-
-#choose-car.section-padding {
-	padding-bottom: 70px;
-}
 
 .choose-content-wrap .nav-tabs {
 	border-bottom: 3px solid #cca349;
@@ -1899,17 +1895,6 @@ body,
 
 /*== What Do Area CSS ==*/
 
-.we-do-bg-1 {
-	background-image: url(assets/img/we-do/service1-img.png);
-}
-
-.we-do-bg-2 {
-	background-image: url(assets/img/we-do/service2-img.png);
-}
-
-.we-do-bg-3 {
-	background-image: url(assets/img/we-do/service3-img.png);
-}
 
 .single-we-do {
 	background-position: center center;
@@ -1957,13 +1942,26 @@ body,
 	padding: 8px 15px;
 }
 
-/*== What Do Area CSS ==*/
-
-#service-area.section-padding {
-	padding-bottom: 50px;
-}
-
 /*== What Choose CSS ==*/
+
+.we-do-bg-1 {
+    background-image: url(assets/img/highlights/high-1.png);
+}
+.we-do-bg-2 {
+    background-image: url(assets/img/highlights/high-2.png);
+}
+.we-do-bg-3 {
+    background-image: url(assets/img/highlights/high-3.png);
+}
+.we-do-bg-4 {
+    background-image: url(assets/img/highlights/high-4.png);
+}
+.we-do-bg-5 {
+    background-image: url(assets/img/highlights/high-5.png);
+}
+.we-do-bg-6 {
+    background-image: url(assets/img/highlights/high-6.png);
+}
 
 #why-choose-area .nav {
 	border: 0 none;
@@ -3219,4 +3217,26 @@ a.active {
 }
 .client-page .col-md-3 {
     margin-bottom: 20px;
+}
+.highlights-title .section-title {
+    margin: 50px 0;
+}
+.highlights-container .col-lg-4.col-md-4 {
+    margin-bottom: 2%;
+    margin-right: 2%;
+    max-width: 31.3333% !important;
+    box-shadow: 0 0 8px rgb(204 163 73);
+    padding: 0;
+}
+.highlights-container .col-lg-4.col-md-4 h3 {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    color: #cca349;
+}
+.home-page .section-padding {
+    padding: 80px 0 0 0;
+}
+#choose-car .section-title {
+    margin: 0;
 }

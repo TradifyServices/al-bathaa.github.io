@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { ClientComponent } from './client/client.component';
 import { HighlightsComponent } from './highlights/highlights.component';
+import { SchoolTransportComponent } from './school-transport/school-transport.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HighlightsComponent } from './highlights/highlights.component';
     FooterComponent,
     ContactComponent,
     ClientComponent,
-    HighlightsComponent
+    HighlightsComponent,
+    SchoolTransportComponent
   ],
   imports: [
     BrowserModule,

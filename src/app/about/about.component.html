@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <div class="section-title  text-center">
                     <h2>About us</h2>
-                    <span class="title-line"><i class="fa fa-car"></i></span>
+                    <span class="title-line"><i class="fa fa-bus"></i></span>
                     <p>Our experienced team is focused on exceeding our clients' expectations.</p>
                 </div>
             </div>
@@ -40,9 +40,10 @@
             </div>
             <!-- About Video End -->
         </div>
+        <div *ngIf="hasRoute('about')">
+            <app-highlights></app-highlights>
+        </div>
     </div>
-    
 </section> 
 <!--== About Us Area End ==-->
-
-<app-highlights></app-highlights>
+<!-- First view -->
