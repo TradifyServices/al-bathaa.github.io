@@ -16,6 +16,14 @@ import { ContactComponent } from './contact/contact.component';
 import { ClientComponent } from './client/client.component';
 import { HighlightsComponent } from './highlights/highlights.component';
 import { SchoolTransportComponent } from './school-transport/school-transport.component';
+import { SuppliersComponent } from './suppliers/suppliers.component';
+import { PartnersComponent } from './partners/partners.component';
+import { IndustrialTransportComponent } from './industrial-transport/industrial-transport.component';
+import { HotelTransportComponent } from './hotel-transport/hotel-transport.component';
+import { CorporateTransportComponent } from './corporate-transport/corporate-transport.component';
+import { OnRentTransportComponent } from './on-rent-transport/on-rent-transport.component';
+import { LeaseTransportComponent } from './lease-transport/lease-transport.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +40,15 @@ import { SchoolTransportComponent } from './school-transport/school-transport.co
     ContactComponent,
     ClientComponent,
     HighlightsComponent,
-    SchoolTransportComponent
+    SchoolTransportComponent,
+    SuppliersComponent,
+    PartnersComponent,
+    IndustrialTransportComponent,
+    HotelTransportComponent,
+    CorporateTransportComponent,
+    OnRentTransportComponent,
+    LeaseTransportComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,

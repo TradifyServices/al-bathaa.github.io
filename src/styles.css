@@ -6,7 +6,7 @@
 }
 
 .overlay:after {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(141, 27, 61,0.6);
 	content: "";
 	left: 0;
 	position: absolute;
@@ -17,7 +17,7 @@
 }
 
 .section-padding {
-    padding: 150px 0px 80px;
+    padding: 170px 0px 80px;
 }
 
 #page-title-area {
@@ -113,7 +113,9 @@
 	transition: 0.4s;
 }
 
-#header-area .header-social-icons a:hover i.fa,
+#header-area .header-social-icons a:hover i.fa{
+	color: #fff;
+}
 #header-area .mainmenu ul li.active a,
 #header-area .mainmenu ul li:hover a {
 	color: #cca349;
@@ -296,7 +298,7 @@ a.slicknav_btn {
 /*== Slider Area CSS Start ==*/
 
 .single-slide-item {
-	background-image: url("/assets/img/banner.jpg");
+	background-image: url("/assets/img/banner.png");
 	background-position: center center;
 	background-size: cover;
 	padding: 80px 0;
@@ -415,17 +417,16 @@ a.slicknav_btn {
 }
 
 .about-btn a {
-	background-color: #cca349;
-	border-radius: 50px;
-	color: #fff;
-	display: inline-block;
-	font-size: 13px;
-	font-weight: 600;
-	margin-right: 20px;
-	padding: 6px 30px;
-	text-transform: uppercase;
-	-webkit-transition: all 0.4s ease 0s;
-	transition: all 0.4s ease 0s;
+    background-color: #cca349;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
 }
 
 .about-btn a:hover {
@@ -1904,6 +1905,7 @@ body,
 	position: relative;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
+	margin: 10px;
 }
 
 .single-we-do:hover .we-do-content {
@@ -1948,7 +1950,8 @@ body,
     background-image: url(assets/img/highlights/high-1.png);
 }
 .we-do-bg-2 {
-    background-image: url(assets/img/highlights/high-2.png);
+	background-image: url(assets/img/highlights/high-2.png);
+	border: 1px solid #f5f5f5;
 }
 .we-do-bg-3 {
     background-image: url(assets/img/highlights/high-3.png);
@@ -2167,21 +2170,6 @@ body,
 	margin-bottom: 0;
 }
 
-.car-thumb-1 {
-	background-image: url(assets/img/buses/car-1.jpg);
-}
-
-.car-thumb-2 {
-	background-image: url(assets/img/buses/car-2.jpg);
-}
-
-.car-thumb-3 {
-	background-image: url(assets/img/buses/car-3.jpg);
-}
-
-.car-thumb-4 {
-	background-image: url(assets/img/buses/car-4.jpg);
-}
 
 .car-list-thumb {
 	background-size: cover;
@@ -2580,23 +2568,6 @@ body,
 /*==============================
     Service Page Css Start
 ================================*/
-
-.ser-thumb-bg-1 {
-	background-image: url(assets/img/buses/car-1.jpg);
-}
-
-.ser-thumb-bg-2 {
-	background-image: url(assets/img/buses/car-2.jpg);
-}
-
-.ser-thumb-bg-3 {
-	background-image: url(assets/img/buses/car-3.jpg);
-}
-
-.ser-thumb-bg-4 {
-	background-image: url(assets/img/buses/car-5.jpg);
-}
-
 .single-service-item {
 	overflow: hidden;
 }
@@ -3180,7 +3151,7 @@ section#testimonial-area {
 .slider-right-text {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin-top: 20em;
+    margin-top: 17em;
 }
 .single-slide-item {
     height: 70vh;
@@ -3193,7 +3164,7 @@ section#testimonial-area {
     margin-left: 0px;
 	padding: 30px;	
 	background-color: #ffffff;
-    box-shadow: 0 0 0.6em 0 #8d1b3d;
+	border: 1px solid #8d1b3d;
     border-radius: 63%;
     margin-top: 7px;
 }
@@ -3225,7 +3196,7 @@ a.active {
     margin-bottom: 2%;
     margin-right: 2%;
     max-width: 31.3333% !important;
-    box-shadow: 0 0 8px rgb(204 163 73);
+    box-shadow: 0 0 8px rgba(204, 163, 73, 0.8);
     padding: 0;
 }
 .highlights-container .col-lg-4.col-md-4 h3 {
@@ -3239,4 +3210,31 @@ a.active {
 }
 #choose-car .section-title {
     margin: 0;
+}
+.client-page.section-padding {
+    padding: 80px 0 0 0;
+}
+.client-page p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#service-area .section-title p {
+    text-align: left;
+}
+#service-area ul {
+    text-align: left;
+    margin-top: 5px;
+}
+#service-area ul li {
+    list-style: inside;
+}
+.mainmenu a.dropdown:after {
+    content: "\f0dd";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 12px;
+    padding: 0 4px;
+}
+#service-area p {
+    margin-bottom: 10px;
 }

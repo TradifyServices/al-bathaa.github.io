@@ -19,12 +19,9 @@
                 <div class="display-table">
                     <div class="display-table-cell">
                         <div class="about-content">
-                            <p>Our transport services are offered by our multinational team of licensed drivers who are fluent in languages such as English, Tagalog, Urdu, Nepali and Arabic. Our drivers are also fully aware and trained to operate within the culture of Qatar, in full compliance with local laws and regulations.</p>
-
-                            <p>To deliver an exceptional service while offering the most customized, cost effective, and reliable transportation solution. Our mission is to continually provide superior transportation services by demonstrating our core values with dedicated team members, and by utilizing innovative strategies and technology.</p>
-                            <div class="about-btn">
-                                <a routerLink="/contact">Get A Quote</a>
-                            </div>
+                            <p>Al Bathaa has been proudly offering our transport service in the Qatar since 2020. We are one of Qatar’s most experienced private buses & School Bus Service provider. We are a safe and reliable group transportation provider. We strive to deliver and outstanding experience with our customized service.  </p>
+                            <p> Our clientele includes tours and charters, school groups, sports team, religious and recreational groups, corporate executives, tour companies, inbound international tourists and conventions. We offer a variety of services that are designed to meet your every need. Providing Safe equipment with outstanding customer service and reliability is our difference!
+                           </p> 
                         </div>
                     </div>
                 </div>
@@ -35,10 +32,19 @@
             <!-- About Video Start -->
             <div class="col-lg-6">
                 <div class="about-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YSKJbhduC-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/idnm2o6IUwA?start=16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <!-- About Video End -->
+            <div *ngIf="hasRoute('about')">
+                <div class="col-md-12 about-content">
+                    <p> We can arrange for vehicles to suit your needs. Our excellent team includes experienced and licensed drivers who pride themselves in Qatari hospitality. In addition our drivers come from a diverse and multicultural background and boast fluency in English, Arabic, Urdu, Hindi, Nepali and Tagalog.</p>
+                    <p>Our company believes in diligence and safety, that is why our fleet of vehicles are regularly maintained under strict maintenance protocol and inspected daily. A clean and modern fleet awaits you. </p>
+                    <div class="about-btn">
+                        <a routerLink="/contact">Get A Quote</a>
+                    </div>
+                </div>
+            </div>   
         </div>
         <div *ngIf="hasRoute('about')">
             <app-highlights></app-highlights>

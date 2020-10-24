@@ -15,7 +15,7 @@ export class ContactComponent implements OnInit {
 
   public sendEmail(e: Event) {
     e.preventDefault();
-    emailjs.sendForm('Al-bathaa', 'template_efezph8', e.target as HTMLFormElement, 'user_CBPqtcPvPnOBG8CioVCYY')
+    emailjs.sendForm('al-bathaa', 'template_ehrlorp', e.target as HTMLFormElement, 'user_vQYJ8MTqo7PM7Offefthg')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
         alert('Form is submitted successfully.');
